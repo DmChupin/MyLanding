@@ -1,0 +1,159 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+.white-wrapper {
+  background-color: white;
+}
+.biege-wrapper {
+  background-color: #f6f6f6;
+}
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #828282;
+}
+/*
+    header
+*/
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  width: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #070707;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px 40px;
+}
+
+nav ul li a {
+  font-size: 18px;
+}
+
+/*
+    body
+*/
+.main-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+.main-info__fullname {
+  color: #070707;
+  font-size: 38px;
+  width: 200px;
+  text-transform: uppercase;
+  padding-left: 15px;
+}
+.main-info__job {
+  color: #070707;
+  font-size: 18px;
+  width: 300px;
+}
+.main-info__language {
+  transform: rotate(-90deg);
+  size: 16px;
+  color: #828282;
+}
+.main-info__language--active-lang {
+  color: #070707;
+}
+
+img {
+  margin-top: 30px;
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.about {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 30px;
+  padding: 70px 0;
+}
+
+.about h3 {
+  color: #070707;
+  font-size: 34px;
+}
+.about p {
+  margin-top: 10px;
+  color: #070707;
+  font-size: 18px;
+}
+
+.skills {
+  text-align: center;
+  padding: 50px 0;
+}
+.skills h3 {
+  font-size: 34px;
+  color: #070707;
+}
+.skills p {
+  font-size: 18px;
+  color: #070707;
+  padding: 20px 0;
+}
+.skills__instruments {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 20px 50px;
+}
+.skills__instruments__logo {
+  width: 100px;
+}
+
+.contacts {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #f6f6f6;
+}
+
+.contacts h3 {
+  font-size: 34px;
+  color: #070707;
+}
+.contacts p {
+  font-size: 18px;
+  color: #070707;
+  padding: 20px 0;
+}
+.contacts span {
+  background-color: #070707;
+  color: #f6f6f6;
+  border-radius: 25px;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+.contacts__logos {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  padding: 20px 50px;
+}
+.contacts__logos__logo {
+  width: 50px;
+}
